@@ -23,6 +23,21 @@ The screenshot below shows the HR question
 - **Power BI** – for data visualization and reporting
 - **Excel/CSV** – as the data source
 
+## 🗂️ Data Source and Structure
+### **Name of Data:** 
+- HR_Resources_Dataset
+### **Source Type:** 
+- Excel/CSV file
+### **Description:** 
+- This dataset contains employee information from an organization. It includes demographic details, job-related information, department, and employment history
+### **How It Was Used:** 
+- Imported into MySQL Workbench for data cleaning, querying, and analysis.
+- Connected to Power BI for creating dashboards and visual reports on employee demographics, turnover, and department performance.
+
+### **Approximate Data Volume:**
+- HR Data with over 22000 rows from the year 2000 to 2020.
+
+
 
 
 
