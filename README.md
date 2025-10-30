@@ -75,6 +75,9 @@ The below file is the data cleaning process using MyQSL benchwork
 - Most people in the company work as Developers, Business Analysts, or Service Technicians.
 - Employees in Sales and Service roles tend to leave more often, while those in Engineering and Accounting usually stay with the company the longest.
 
+
+
+
   
 
 
