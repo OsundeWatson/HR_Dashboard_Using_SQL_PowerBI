@@ -17,7 +17,7 @@ The project answers key business questions such as workforce diversity, departme
 ## HR Data Key Questions
 The screenshot below shows the HR question 
 
-![Key Questions](/HR_Key_Question.png)
+![Key Questions](image/HR_Key_Question.png)
 
 ## 🧰 Tools used
 - **SQL** – for data cleaning, transformation, and querying
