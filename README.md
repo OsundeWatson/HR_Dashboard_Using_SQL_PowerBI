@@ -16,6 +16,7 @@ The project answers key business questions such as workforce diversity, departme
 
 ## HR Data Key Questions
 The screenshot below shows the HR question 
+
 ![Key Questions](/HR_Key_Question.png)
 
 ## 🧰 Tools used
@@ -25,7 +26,7 @@ The screenshot below shows the HR question
 
 ## 🗂️ Data Source and Structure
 ### **Name of Data:** 
-- HR_Resources_Dataset
+- HR_Resources_Dataset  [HR_resources_Dataset](https://)
 ### **Source Type:** 
 - Excel/CSV file
 ### **Description:** 
