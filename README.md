@@ -26,7 +26,7 @@ The screenshot below shows the HR question
 
 ## 🗂️ Data Source and Structure
 ### **Name of Data:** 
-- HR_Resources_Dataset  [HR_resources_Dataset](https://)
+- HR_Resources_Dataset  [HR_resources_Dataset](https://github.com/OsundeWatson/HR_Dashboard_Using_SQL_PowerBI/blob/7cf731e6ef8761385c017cd1f2be93045fe4c9b9/Human_Resources_Dataset.csv)
 ### **Source Type:** 
 - Excel/CSV file
 ### **Description:** 
