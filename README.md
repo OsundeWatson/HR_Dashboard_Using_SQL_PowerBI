@@ -65,6 +65,14 @@ The below file is the data cleaning process using MyQSL benchwork
 [hr_cleaning_scripts](https://github.com/OsundeWatson/HR_Dashboard_Using_SQL_PowerBI/blob/562ace07395fb8a63e07009ba2f2e5f97d23cc2f/hr_cleaning_data_scripts.sql)
 
 ## 📊 Exploratory Data Analysis (SQL)
+- The company’s team has a slightly higher number of men than women and represents a mix of different racial and ethnic backgrounds. Most employees are in their late twenties to mid-forties **(26 and 45)**. 
+- While most people work from the headquarters in Ohio, remote work is becoming more common across the organization.
+- On average, employees who leave the company tend to stay for about six years, which suggests a fairly stable workforce. 
+- The gender balance follows a familiar pattern — technical areas like Engineering are mostly men, while roles in HR and Accounting are mainly filled by women.
+- Most people in the company work as Developers, Business Analysts, or Service Technicians.
+- Employees in Sales and Service roles tend to leave more often, while those in Engineering and Accounting usually stay with the company the longest.
+
+  
 
 
 
