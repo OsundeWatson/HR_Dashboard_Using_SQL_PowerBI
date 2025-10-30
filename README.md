@@ -37,6 +37,28 @@ The screenshot below shows the HR question
 ### **Approximate Data Volume:**
 - HR Data with over 22000 rows from the year 2000 to 2020.
 
+## 🧹Data Preparation (SQL)
+  ### SQL Queries used for cleaning and transformation
+changing birthdate from text(string) to date data type
+```
+UPDATE hr
+SET birthdate = CASE
+  WHEN birthdate LIKE '%-%-%' AND CHAR_LENGTH(birthdate) = 10 THEN STR_TO_DATE(birthdate, '%Y-%m-%d')
+  WHEN birthdate LIKE '%-%-%' THEN STR_TO_DATE(birthdate, '%m-%d-%Y')
+  WHEN birthdate LIKE '%/%/%' THEN STR_TO_DATE(birthdate, '%m/%d/%Y')
+  ELSE NULL
+END;
+
+ALTER TABLE hr
+MODIFY COLUMN birthdate DATE;
+```
+The below file is the data cleaning process using MyQSL benchwork
+[title](https://www.example.com)
+
+
+
+
+
 
 
 
