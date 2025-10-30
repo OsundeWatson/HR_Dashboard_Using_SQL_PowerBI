@@ -15,8 +15,17 @@ The project answers key business questions such as workforce diversity, departme
 - To provide interactive and visual insights through Power BI dashboards that support strategic HR planning and decision-making.
 
 ## HR Data Key Questions
-The screenshot below shows the HR question 
-![Key Questions](HR_Key_Question.png)
+1.  What is the gender breakdown of employees in the company?
+2.  What is the race/ethnicity breakdown of employees in the company?
+3.  What is the age distribution of employees in the company?
+4.  How many employees work at headquarters versus remote locations?
+5.  What is the average length of employment for employees who have been terminated?
+6.  How does the gender distribution vary across departments and job titles?
+7.  What is the distribution of job titles across the company?
+8.  Which department has the highest turnover rate?
+9.  What is the distribution of employees across locations by state?
+10.  How has the company's employee count changed over time based on hire and term dates?
+11.  What is the tenure distribution for each department?
 
 ## 🧰 Tools used
 - **SQL** – for data cleaning, transformation, and querying
@@ -53,7 +62,10 @@ ALTER TABLE hr
 MODIFY COLUMN birthdate DATE;
 ```
 The below file is the data cleaning process using MyQSL benchwork
-[title](https://www.example.com)
+[hr_cleaning_scripts](https://github.com/OsundeWatson/HR_Dashboard_Using_SQL_PowerBI/blob/562ace07395fb8a63e07009ba2f2e5f97d23cc2f/hr_cleaning_data_scripts.sql)
+
+## 📊 Exploratory Data Analysis (SQL)
+
 
 
 
