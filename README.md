@@ -14,7 +14,7 @@ The project answers key business questions such as workforce diversity, departme
 - To evaluate historical hiring and termination patterns to understand workforce growth over time.
 - To provide interactive and visual insights through Power BI dashboards that support strategic HR planning and decision-making.
 
-## HR Data Key Questions
+## ❓HR Data Key Questions
 1.  What is the gender breakdown of employees in the company?
 2.  What is the race/ethnicity breakdown of employees in the company?
 3.  What is the age distribution of employees in the company?
@@ -75,7 +75,15 @@ The below file is the data cleaning process using MyQSL benchwork
 - Most people in the company work as Developers, Business Analysts, or Service Technicians.
 - Employees in Sales and Service roles tend to leave more often, while those in Engineering and Accounting usually stay with the company the longest.
 
+### The Screenshot below shows the script SQL Queries for answers number 1 to 3. 
 ![sql_scripts to answer 1 to 3](/images/answers_1_to_3.png)
+
+All data preparation and transformation steps were performed using SQL.  
+The complete set of SQL scripts can be found here:
+ ### [View SQL Queries Repository]()
+
+
+
 
 
 
