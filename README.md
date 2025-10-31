@@ -81,7 +81,7 @@ The below file is the data cleaning process using MyQSL benchwork
 
 **In this paragraph, you will find the SQL queries used to address the remaining questions concerning the HR dataset. These queries include data cleaning operations, calculations (such as employee age), and aggregations to answer specific analytical questions. The provided queries are structured for clarity.**
 
-### [View SQL Queries Repository](hr_cleaning_data_scripts.sql) 
+### [View SQL Queries answers to the other HR Questions](hr_answers_scripts/hr_answers.sql) 
 
 All data preparation and transformation steps were performed using SQL.  
 The complete set of SQL scripts can be found here:
@@ -96,6 +96,10 @@ The complete set of SQL scripts can be found here:
 - convert 'termdate' column to date type
 - add 'age' column based on 'birthdate'
 - validate data integrity
+
+## HR Dataset Visualization and Dashboard
+The following visualizations provide insights into employee demographics, hiring trends, and other key HR metrics.
+### ![HR Dashboard](/images/hr_visualization_page1)
 
 
 
