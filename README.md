@@ -99,7 +99,8 @@ The complete set of SQL scripts can be found here:
 
 ## HR Dataset Visualization and Dashboard
 The following visualizations provide insights into employee demographics, hiring trends, and other key HR metrics.
-### ![HR Dashboard](/images/hr_visualization_page1)
+### ![HR Dashboard](/images/hr_visualization_page1.png)
+
 
 
 
