@@ -7,6 +7,8 @@ This project focuses on **HR Data Analysis** to uncover meaningful insights abou
 The goal of this project is to help the HR department make data-driven decisions by understanding patterns in employee demographics, retention, and organizational structure.
 The project answers key business questions such as workforce diversity, departmental turnover, and changes in employee count over time.
 
+### ![HR Dashboard](/images/hr_visualization_page1.png)
+
 ## 🎯 Project Objectives
 - To analyze the company’s workforce demographics, including gender, age, race/ethnicity, and job distribution.
 - To identify trends in employee turnover and determine which departments or job roles are most affected.
@@ -99,7 +101,17 @@ The complete set of SQL scripts can be found here:
 
 ## HR Dataset Visualization and Dashboard
 The following visualizations provide insights into employee demographics, hiring trends, and other key HR metrics.
-### ![HR Dashboard](/images/hr_visualization_page1.png)
+### ![HR Dashboard](/images/hr_visualization_page2.png)
+
+### For the full interactive dashboard, see the Power BI file: [HR Dashboard](Human_resource_report.pbix)
+
+## Limitations
+- Some records had negative ages and these were excluded during querying(967 records). Ages used were 18 years and above.
+- Some termdates were far into the future and were not included in the analysis(1599 records). The only term dates used were those less than or equal to the current date.
+
+
+
+
 
 
 
