@@ -34,7 +34,7 @@ The project answers key business questions such as workforce diversity, departme
 
 ## 🗂️ Data Source and Structure
 ### **Name of Data:** 
-- HR_Resources_Dataset  [HR_resources_Dataset](https://github.com/OsundeWatson/HR_Dashboard_Using_SQL_PowerBI/blob/7cf731e6ef8761385c017cd1f2be93045fe4c9b9/Human_Resources_Dataset.csv)
+### - HR_Resources_Dataset  [HR_resources_Dataset](https://github.com/OsundeWatson/HR_Dashboard_Using_SQL_PowerBI/blob/7cf731e6ef8761385c017cd1f2be93045fe4c9b9/Human_Resources_Dataset.csv)
 ### **Source Type:** 
 - Excel/CSV file
 ### **Description:** 
@@ -62,7 +62,7 @@ ALTER TABLE hr
 MODIFY COLUMN birthdate DATE;
 ```
 The below file is the data cleaning process using MyQSL benchwork
-[hr_cleaning_scripts](https://github.com/OsundeWatson/HR_Dashboard_Using_SQL_PowerBI/blob/562ace07395fb8a63e07009ba2f2e5f97d23cc2f/hr_cleaning_data_scripts.sql)
+### [hr_cleaning_scripts](https://github.com/OsundeWatson/HR_Dashboard_Using_SQL_PowerBI/blob/562ace07395fb8a63e07009ba2f2e5f97d23cc2f/hr_cleaning_data_scripts.sql)
 
 ## 📊 Exploratory Data Analysis (SQL)
 - The company’s team has a slightly higher number of men than women and represents a mix of different racial and ethnic backgrounds. Most employees are in their **(35 and 45)**.
@@ -78,9 +78,26 @@ The below file is the data cleaning process using MyQSL benchwork
 ### The Screenshot below shows the script SQL Queries for answers number 1 to 3. 
 ![sql_scripts to answer 1 to 3](/images/answers_1_to_3.png)
 
+
+**In this paragraph, you will find the SQL queries used to address the remaining questions concerning the HR dataset. These queries include data cleaning operations, calculations (such as employee age), and aggregations to answer specific analytical questions. The provided queries are structured for clarity.**
+
+### [View SQL Queries Repository](hr_cleaning_data_scripts.sql) 
+
 All data preparation and transformation steps were performed using SQL.  
 The complete set of SQL scripts can be found here:
- ### [View SQL Queries Repository]()
+ ### [View SQL Queries Repository](hr_cleaning_data_scripts.sql)
+### These queries include:
+- Creating and using database, human_resource;
+- Data cleaning and normalization  
+- initial data inspection  
+- rename incorrect column headings
+- convert 'birthdate' column to date type
+- convert 'hire date' column to date type
+- convert 'termdate' column to date type
+- add 'age' column based on 'birthdate'
+- validate data integrity
+
+
 
 
 
